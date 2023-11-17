@@ -1,7 +1,7 @@
 project:
   type: website
-output-dir: docs
-execute-dir: project
+  output-dir: docs
+  execute-dir: project
 
 website:
   title: "Canadian Media Bias in Palestine Reporting"
