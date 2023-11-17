@@ -1,0 +1,13 @@
+---
+title: "Previous Reporting"
+listing:
+  type: table
+  sort:
+    - "title asc"
+  fields: [title, date, author]
+---
+
+We are building off of work done by journalists in Canada and elsewhere. Here is a list of previously done work: 
+
+-   [The Column: "Massacred" vs "Left to Die"](https://www.columnblog.com/p/massacred-vs-left-to-die-documenting)
+-   [The Breach: CTV's Double Standards](https://breachmedia.ca/canadian-media-ctv-racist-double-standards-palestinians/)
