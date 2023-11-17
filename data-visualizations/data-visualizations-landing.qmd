@@ -1,0 +1,10 @@
+---
+title: "Ongoing Data Analysis"
+listing:
+  type: table
+  sort:
+    - "title asc"
+  fields: [title, date, author]
+---
+
+Our work is grounded in the question: Is the media coverage from the Palestinian and Israeli conflict in Canada biased? 

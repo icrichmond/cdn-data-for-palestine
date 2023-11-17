@@ -1,6 +1,15 @@
 [
   {
+    "listing": "/data-visualizations/data-visualizations-landing.html",
+    "items": [
+      "/data-visualizations/media-coverage.html",
+      "/data-visualizations/public-polling.html"
+    ]
+  },
+  {
     "listing": "/previous-work/previous-work-landing.html",
-    "items": []
+    "items": [
+      "/previous-work/previous-vis.html"
+    ]
   }
 ]
