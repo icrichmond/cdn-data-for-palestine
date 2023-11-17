@@ -1,0 +1,16 @@
+project:
+  type: website
+output-dir: docs
+execute-dir: project
+
+website:
+  title: "Canadian Media Bias in Palestine Reporting"
+
+sidebar:
+  contents: auto
+
+format:
+  html:
+    theme:
+      light: minty
+    toc: true
