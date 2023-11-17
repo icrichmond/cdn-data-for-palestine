@@ -1,7 +1,7 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-.Random.seed|object|11b4f251653064e4|||||||||||||||
+.Random.seed|object|b4235ea553052a1f|||||||||||||||
 data_download|stem|6dd71d12008128c1|a073f7455f4b4d30|ffcb9d7805e5dbeb|-1291858448||t19678.6944572868s|de1c6d017cb4e8a8|38|qs|local|vector|||0.001||
 download_data|function|7f751aef04cd03cd|||||||||||||||
-site|stem|97b3faa5a8960b4e|b484180a51350084|ef46db3751d8e999|-671836230|docs*data-visualizations/data-visualizations-landing.qmd*data-visualizations/media-coverage.qmd*data-visualizations/public-polling.qmd*index.qmd*previous-work/previous-vis.qmd*previous-work/previous-work-landing.qmd*_quarto.yml|t19678.8290761533s|1393fccb5389bdaa|987211|file|local|vector|||6.017||
+site|stem|f7337189ed0c1e1b|b484180a51350084|ef46db3751d8e999|-671836230|docs*data-visualizations/data-visualizations-landing.qmd*data-visualizations/media-coverage.qmd*data-visualizations/public-polling.qmd*index.qmd*previous-work/previous-vis.qmd*previous-work/previous-work-landing.qmd*_quarto.yml|t19678.8687661123s|a32200be3d6408a1|1020256|file|local|vector|||7.413||
 targets_data|object|09000f843ba432ec|||||||||||||||
 targets_quarto|object|37c59af10ea3e865|||||||||||||||

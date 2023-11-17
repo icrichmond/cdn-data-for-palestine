@@ -6,8 +6,8 @@ project:
 website:
   title: "Canadian Media Bias in Palestine Reporting"
 
-sidebar:
-  contents: auto
+  sidebar:
+    contents: auto
 
 format:
   html:
