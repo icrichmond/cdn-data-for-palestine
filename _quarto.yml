@@ -12,5 +12,5 @@ website:
 format:
   html:
     theme:
-      light: minty
+      light: flatly
     toc: true
