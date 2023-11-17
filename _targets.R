@@ -11,6 +11,13 @@ lapply(dir('R', '*.R', full.names = TRUE), source)
 tar_option_set(format = 'qs')
 
 
+# Renv --------------------------------------------------------------------
+activate()
+snapshot()
+restore()
+
+
+
 # Data --------------------------------------------------------------------
 
 targets_data <- c(
