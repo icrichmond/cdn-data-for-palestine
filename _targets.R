@@ -22,8 +22,13 @@ restore()
 
 targets_data <- c(
   tar_target(
-    data_download,
-    download_data()
+    articles,
+    search_articles()
+  ),
+  
+  tar_target(
+    scan,
+    scan_articles()
   )
   
 )
