@@ -4,7 +4,7 @@ This project is inspired by reporting in the US done by [The Column](https://www
 
 We know there is bias in the Canadian media landscape, and we want to show you just how much.
 
-The goals of this project are to have an ongoing place where you can check in and see how our journalists our doing.
+The goals of this project are to have an ongoing place where you can check in and see how our journalists our doing. We are also working to eventually collect data independently to measure the scope and scale of apartheid in occupied Palestine and the amount of Canadian taxpayer resources going to Israel.
 
 ## To Come
 
