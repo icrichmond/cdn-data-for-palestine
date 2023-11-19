@@ -23,7 +23,8 @@ restore()
 targets_data <- c(
   tar_target(
     articles,
-    search_articles()
+    search_articles('www.cbc.ca', exact_phrase = 'Israeli', date_from = '2023-10-07', date_to = '2023-11-19',
+                    pages = 10)
   ),
   
   tar_target(

@@ -5,3 +5,6 @@ library(qs)
 library(renv)
 
 library(dplyr)
+library(tibble)
+
+library(rvest)
