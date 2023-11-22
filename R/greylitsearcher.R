@@ -333,7 +333,7 @@ get_links <- function(code_lines){
   y <- grep("egMi0 kCrYT", code_lines) #find location of lines containing urls
   links <- code_lines[y] #extract lines
   links <- sub(".*q=", "", links)
-  links <- sub("\".*", "", links)
+  links <- sub("&amp.*", "", links)
   return(links)
 }
 
