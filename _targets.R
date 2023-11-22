@@ -29,7 +29,7 @@ targets_data <- c(
   
   tar_target(
     scan,
-    scan_articles()
+    scan_articles(articles)
   )
   
 )
