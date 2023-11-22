@@ -315,7 +315,8 @@ get_info <- function(html){
   code_lines <- unlist(strsplit(html, '\\<div', useBytes = TRUE))
   titles <- get_titles(code_lines)
   links <- get_links(code_lines)
-  df <- tibble::tibble(title = titles, link = links)
+  dates <- get_dates(code_lines)
+  df <- tibble::tibble(title = titles, link = links, date = dates)
   return(df)
 }
 
