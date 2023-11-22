@@ -451,6 +451,21 @@
       ],
       "Hash": "709d852d33178db54b17c722e5b1e594"
     },
+    "purrr": {
+      "Package": "purrr",
+      "Version": "1.0.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "cli",
+        "lifecycle",
+        "magrittr",
+        "rlang",
+        "vctrs"
+      ],
+      "Hash": "1cba04a4e9414bdefc9dcaa99649a8dc"
+    },
     "qs": {
       "Package": "qs",
       "Version": "0.25.5",
