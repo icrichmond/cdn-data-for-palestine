@@ -1,18 +1,30 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-.Random.seed|object|3e3a7f9d0ad81fd9|||||||||||||||
-articles|stem|913c6c42364b225d|af1d3bc69c957c91|4f0d281e6bebd68d|-720399151||t19683.1158705944s|6e8f88b392891384|5902|qs|local|vector|||13.175||
+.Random.seed|object|e7811248ceef3072|||||||||||||||
+articles|stem|913c6c42364b225d|af1d3bc69c957c91|0b6fd73b3556edf4|-720399151||t19683.1158705944s||5902|qs|local|vector|||12.24||1m22mTibble columns must have compatible sizes.36m39m Size 10 Existing data.36m39m Size 9 Column date.36mℹ39m Only values of size one are recycled.
 buildGoogleLinkAdv|function|da8c9a75152348cc|||||||||||||||
 buildGoogleLinksAdv|function|e61b2efa7b678059|||||||||||||||
 data_download|stem|6dd71d12008128c1|a073f7455f4b4d30|ffcb9d7805e5dbeb|-1291858448||t19678.6944572868s|de1c6d017cb4e8a8|38|qs|local|vector|||0.001||
 download_data|function|7f751aef04cd03cd|||||||||||||||
 get_dates|function|af40ca3754d8f149|||||||||||||||
-get_info|function|6c47e64d77e532a0|||||||||||||||
+get_info|function|7e1ca19321008bc7|||||||||||||||
 get_links|function|b157c16211e6049f|||||||||||||||
 get_titles|function|9b57f7e1c291e38d|||||||||||||||
 save_html|function|52b8b8bf4d269cff|||||||||||||||
 scan|stem|6dd71d12008128c1|e1ce3e4f68328edd|177ffa85320f9314|-754746662||t19680.7975334892s||38|qs|local|vector|||0.026||object articles not found
-scan_articles|function|94561bcfaee0289e|||||||||||||||
-search_articles|function|34aa0bec4a73a9d5|||||||||||||||
+scan_articles|function|62144c5d1dfd9186|||||||||||||||
+search_articles|function|3d1b18d229e44fe0|||||||||||||||
 site|stem|aace5cea65448378|3b1011d316ba9957|ef46db3751d8e999|-671836230|docs*data-visualizations/data-visualizations-landing.qmd*data-visualizations/media-coverage.qmd*data-visualizations/public-polling.qmd*index.qmd*previous-work/previous-vis.qmd*previous-work/previous-work-landing.qmd*_quarto.yml*CNAME|t19680.7976039535s|4864dff9f4c1e7b2|5092|file|local|vector|||6.094||
-targets_data|object|3228789268c8c6de|||||||||||||||
-targets_quarto|object|e2bf3293e44178b3|||||||||||||||
+targets_data|object|e48a38e165de8406|||||||||||||||
+targets_quarto|object|e9134b11ffc6e3d9|||||||||||||||
+save_html|function|52b8b8bf4d269cff
+get_links|function|b157c16211e6049f
+get_titles|function|9b57f7e1c291e38d
+buildGoogleLinkAdv|function|da8c9a75152348cc
+scan_articles|function|62144c5d1dfd9186
+targets_quarto|object|e9134b11ffc6e3d9
+.Random.seed|object|99444bb514d9ad0e
+get_dates|function|af40ca3754d8f149
+targets_data|object|e48a38e165de8406
+get_info|function|6c47e64d77e532a0
+buildGoogleLinksAdv|function|e61b2efa7b678059
+search_articles|function|34aa0bec4a73a9d5
