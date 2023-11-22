@@ -6,5 +6,6 @@ library(renv)
 
 library(dplyr)
 library(tibble)
+library(purrr)
 
 library(rvest)
