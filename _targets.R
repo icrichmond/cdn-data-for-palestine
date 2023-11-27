@@ -27,7 +27,7 @@ targets_data <- c(
     search_articles(c('www.cbc.ca', 'www.theglobeandmail.com', 'www.ctvnews.ca',
                       'www.globalnews.ca', 'www.nationalpost.com'), 
                     exact_phrase = 'Israeli', 
-                    date_from = '2023-10-07', date_to = '2023-11-26',
+                    date_from = '2023-10-07', date_to = '2023-11-27',
                     pages = 10)
   ),
   
@@ -41,7 +41,7 @@ targets_data <- c(
     search_articles(c('www.cbc.ca', 'www.theglobeandmail.com', 'www.ctvnews.ca',
                       'www.globalnews.ca', 'www.nationalpost.com'), 
                     exact_phrase = 'Palestinian', 
-                    date_from = '2023-10-07', date_to = '2023-11-26',
+                    date_from = '2023-10-07', date_to = '2023-11-27',
                     pages = 10)
   ),
   
@@ -55,7 +55,7 @@ targets_data <- c(
     search_articles(c('www.cbc.ca', 'www.theglobeandmail.com', 'www.ctvnews.ca',
                       'www.globalnews.ca', 'www.nationalpost.com'), 
                     exact_phrase = 'Hamas-run hospital', or_terms = 'Hamas-run health ministry', 
-                    date_from = '2023-10-07', date_to = '2023-11-26',
+                    date_from = '2023-10-07', date_to = '2023-11-27',
                     pages = 10)
   ),
   
@@ -69,7 +69,7 @@ targets_data <- c(
     search_articles(c('www.cbc.ca', 'www.theglobeandmail.com', 'www.ctvnews.ca',
                       'www.globalnews.ca', 'www.nationalpost.com'), 
                     exact_phrase = 'Israeli hostages', not_terms = 'Palestinian hostages', 
-                    date_from = '2023-10-07', date_to = '2023-11-26',
+                    date_from = '2023-10-07', date_to = '2023-11-27',
                     pages = 10)
   ),
   
