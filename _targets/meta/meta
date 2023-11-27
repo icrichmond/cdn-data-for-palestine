@@ -1,31 +1,37 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-.Random.seed|object|e7811248ceef3072|||||||||||||||
-articles|stem|913c6c42364b225d|af1d3bc69c957c91|0b6fd73b3556edf4|-720399151||t19683.1158705944s||5902|qs|local|vector|||12.24||1m22mTibble columns must have compatible sizes.36m39m Size 10 Existing data.36m39m Size 9 Column date.36mℹ39m Only values of size one are recycled.
+.Random.seed|object|dbb9b92270644052|||||||||||||||
+articles|stem|4db29f357779a3bc|af1d3bc69c957c91|4f0d281e6bebd68d|-720399151||t19683.1667562454s|910b022ebbdef59c|5944|qs|local|vector|||12.76||
+articles_hamashospital|stem|589c02bfc35d39d8|b3d4cae13e68fa0f|4f0d281e6bebd68d|-920545498||t19688.0857196395s|9c65c0efa2bd8545|6114|qs|local|vector|||55.954||
+articles_israeli|stem|1070804a0e79dddc|e45bec2d66542178|4f0d281e6bebd68d|-885566129||t19688.0850718931s|e763ccba7ad36a25|12078|qs|local|vector|||49.844||
+articles_palestinian|stem|01856b14e29ffa69|ab8b8d22a46f9ed2|4f0d281e6bebd68d|137366705||t19688.084494868s|fc2c70f0f40b8a75|12290|qs|local|vector|||50.388||
 buildGoogleLinkAdv|function|da8c9a75152348cc|||||||||||||||
 buildGoogleLinksAdv|function|e61b2efa7b678059|||||||||||||||
 data_download|stem|6dd71d12008128c1|a073f7455f4b4d30|ffcb9d7805e5dbeb|-1291858448||t19678.6944572868s|de1c6d017cb4e8a8|38|qs|local|vector|||0.001||
 download_data|function|7f751aef04cd03cd|||||||||||||||
 get_dates|function|af40ca3754d8f149|||||||||||||||
-get_info|function|7e1ca19321008bc7|||||||||||||||
+get_info|function|6c47e64d77e532a0|||||||||||||||
 get_links|function|b157c16211e6049f|||||||||||||||
 get_titles|function|9b57f7e1c291e38d|||||||||||||||
 save_html|function|52b8b8bf4d269cff|||||||||||||||
-scan|stem|6dd71d12008128c1|e1ce3e4f68328edd|177ffa85320f9314|-754746662||t19680.7975334892s||38|qs|local|vector|||0.026||object articles not found
+scan|stem|ff073b372a5cfa84|f6fb4a97b349bbe5|5ef19af183093ae3|-754746662||t19683.1677859439s|926dd19485f65df1|149287|qs|local|vector|||88.704||
 scan_articles|function|62144c5d1dfd9186|||||||||||||||
-search_articles|function|3d1b18d229e44fe0|||||||||||||||
+scan_hamashospital|stem||d63124e6f059fcc8|4be5e5055e56d808|1402851612||t19688.0921761535s||0|qs|local|vector|||16.634||1m22m36mℹ39m In argument html  map....1mCaused by error in map22m1m22m36mℹ39m In index 28.36mℹ39m With name  httpswww.google.comsearchqqsite3Awww.cbc.caORHamasrunORhealthORministryHamasrunhospitaltbscdr3A12Ccd_min3A102F072F20232Ccd_max3A112F262F2023start20299.1mCaused by error in open.connection22m33m39m HTTP error 404.
+scan_israeli|stem|ad9d29a668b89f0c|5ee4ed75a4f48611|97b811075baae416|1947422794||t19688.0919833657s|1bb4b229418054f0|413140|qs|local|vector|||283.016||
+scan_palestinian|stem|cdf765de518f1374|6a949e951098554b|12506b8c6636d234|29356212||t19688.0887072011s|88b6b744fc0594db|322450|qs|local|vector|||258.098||
+search_articles|function|34aa0bec4a73a9d5|||||||||||||||
 site|stem|aace5cea65448378|3b1011d316ba9957|ef46db3751d8e999|-671836230|docs*data-visualizations/data-visualizations-landing.qmd*data-visualizations/media-coverage.qmd*data-visualizations/public-polling.qmd*index.qmd*previous-work/previous-vis.qmd*previous-work/previous-work-landing.qmd*_quarto.yml*CNAME|t19680.7976039535s|4864dff9f4c1e7b2|5092|file|local|vector|||6.094||
-targets_data|object|e48a38e165de8406|||||||||||||||
+targets_data|object|01820238441eee34|||||||||||||||
 targets_quarto|object|e9134b11ffc6e3d9|||||||||||||||
+clean_israelipalestinian|function|fc448dbce347974a
 save_html|function|52b8b8bf4d269cff
 get_links|function|b157c16211e6049f
 get_titles|function|9b57f7e1c291e38d
 buildGoogleLinkAdv|function|da8c9a75152348cc
 scan_articles|function|62144c5d1dfd9186
-targets_quarto|object|e9134b11ffc6e3d9
-.Random.seed|object|99444bb514d9ad0e
+targets_quarto|object|d2fa6af5b74df1c2
+.Random.seed|object|43926207e08fd406
 get_dates|function|af40ca3754d8f149
-targets_data|object|e48a38e165de8406
+targets_data|object|6eefe10e86c2e781
 get_info|function|6c47e64d77e532a0
 buildGoogleLinksAdv|function|e61b2efa7b678059
 search_articles|function|34aa0bec4a73a9d5
-articles|stem|4db29f357779a3bc|af1d3bc69c957c91|4f0d281e6bebd68d|-720399151||t19683.1667562454s|910b022ebbdef59c|5944|qs|local|vector|||12.76||
