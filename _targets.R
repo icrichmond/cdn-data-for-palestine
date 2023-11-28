@@ -69,7 +69,7 @@ targets_data <- c(
     search_articles(c('www.cbc.ca', 'www.theglobeandmail.com', 'www.ctvnews.ca',
                       'www.globalnews.ca', 'www.nationalpost.com'), 
                     exact_phrase = 'Israeli hostages', not_terms = 'Palestinian hostages', 
-                    date_from = '2023-10-07', date_to = '2023-11-27',
+                    date_from = '2023-10-07', date_to = '2023-11-28',
                     pages = 10)
   ),
   
