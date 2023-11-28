@@ -8,7 +8,7 @@ source('R/packages.R')
 
 # Who are we discussing? 
 
-We used a grey literature search tool to search Google for articles that contained the words "Israeli" or "Palestinian" on CBC, CTV, Globe and Mail, Global News, and The National Post websites. 
+We used a grey literature search tool to search Google for articles that contained the words "Israeli" or "Palestinian" on CBC, CTV, and The Globe and Mail websites. 
 
 We then scraped the content of the sites to allow us to do text analysis. After removing duplicates, and articles that were written before Oct 7, we had **319 articles**. We searched for all instances of words that contained any pattern that included "Israel" (e.g., Israel, Israeli, Israelis) and "Palestin" (i.e., "Palestinian", "Palestine", "Palestinians"). We found that Canadian media has significant bias and uses the word Israel* more than double Palestin*.
 
@@ -17,6 +17,7 @@ tar_load(analysis_israelpalestin)
 
 df <- analysis_israelpalestin %>% 
   group_by(media_source) %>% 
+  filter(media_source != "Global News" & media_source != "National Post") %>%
   summarize(count_isr = sum(count_isr),
             count_pal = sum(count_pal)) %>% 
   drop_na() %>% 
@@ -25,6 +26,7 @@ df <- analysis_israelpalestin %>%
 ggplot(df, aes(y = value, x = media_source, fill = name)) + 
   geom_col(position = 'dodge') + 
   theme_classic() + 
-  labs(x = "", y = "Count", fill = "")
+  scale_fill_manual(values = c('navyblue', 'darkgreen'), labels = c("Israel*", "Palestin*")) +
+  labs(x = "", y = "Count", fill = "Word Pattern")
 
 ```

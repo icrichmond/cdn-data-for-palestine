@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "data-visualizations/media-coverage.html",
+    "href": "data-visualizations/media-coverage.html",
+    "title": "Media Coverage in Canada",
+    "section": "",
+    "text": "Who are we discussing?\nWe used a grey literature search tool to search Google for articles that contained the words “Israeli” or “Palestinian” on CBC, CTV, and The Globe and Mail websites.\nWe then scraped the content of the sites to allow us to do text analysis. After removing duplicates, and articles that were written before Oct 7, we had 319 articles. We searched for all instances of words that contained any pattern that included “Israel” (e.g., Israel, Israeli, Israelis) and “Palestin” (i.e., “Palestinian”, “Palestine”, “Palestinians”). We found that Canadian media has significant bias and uses the word Israel* more than double Palestin*."
+  },
+  {
     "objectID": "data-visualizations/data-visualizations-landing.html",
     "href": "data-visualizations/data-visualizations-landing.html",
     "title": "Ongoing Data Analysis",
