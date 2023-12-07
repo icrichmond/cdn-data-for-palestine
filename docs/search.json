@@ -4,7 +4,7 @@
     "href": "data-visualizations/media-coverage.html",
     "title": "Media Coverage in Canada",
     "section": "",
-    "text": "Who are we discussing?\nWe used a grey literature search tool to search Google for articles that contained the words “Israeli” or “Palestinian” on CBC, CTV, and The Globe and Mail websites.\nWe then scraped the content of the sites to allow us to do text analysis. After removing duplicates, and articles that were written before Oct 7, we had 319 articles. We searched for all instances of words that contained any pattern that included “Israel” (e.g., Israel, Israeli, Israelis) and “Palestin” (i.e., “Palestinian”, “Palestine”, “Palestinians”). We found that Canadian media has significant bias and uses the word Israel* more than double Palestin*."
+    "text": "Who are we discussing?\nWe used a grey literature search tool to search Google for articles that contained the words “Israeli” or “Palestinian” on CBC, CTV, and The Globe and Mail websites.\nWe then scraped the content of the sites to allow us to do text analysis. After removing duplicates, and articles that were written before Oct 7, we had 483 articles. We searched for all instances of words that contained any pattern that included “Israel” (e.g., Israel, Israeli, Israelis) and “Palestin” (i.e., “Palestinian”, “Palestine”, “Palestinians”). We found that Canadian media has significant bias and uses the word Israel* more than double Palestin*.\n\n\n\n\n\nWhen we get more specific, we see that comparing the phrases “Israelis killed” and “Palestinians killed”, we see much lower counts of both phrases being used. CBC has the most dispararity (but note the lowest overall count), with 5x more mentions of Palestinians killed, CTV 2.1 times, and The Globe and Mail 3.5 times. Reuters reports at least 16,015 Palestinians have been killed since then, according to Gaza Health Ministry figures, while 1,200 people were killed in Hamas’ incursion into Israel, according to Israeli tallies. At this time, approximately 13x more Palestinians have been killed than Israelis."
   },
   {
     "objectID": "data-visualizations/data-visualizations-landing.html",
@@ -25,7 +25,7 @@
     "href": "previous-work/previous-work-landing.html",
     "title": "Previous Reporting",
     "section": "",
-    "text": "We are building off of work done by journalists in Canada and elsewhere. Here is a list of previously done work:\n\nThe Column: “Massacred” vs “Left to Die”\nThe Breach: CTV’s Double Standards"
+    "text": "We are building off of work done by journalists in Canada and elsewhere. Here is a list of previously done work:\n\nThe Column: “Massacred” vs “Left to Die”\nThe Breach: CTV’s Double Standards\nThe Breach: How Canadian Media Distorts the Truth About Palestine\nThe Breach: CTV forbids use of ‘Palestine,’ suppresses critical stories about Israel\nThe Maple: Politicians Are Lying About The Swastika At Ottawa Palestine Rally\nThe Maple: Palestine Solidarity Activists Reject Claims About Concordia Altercations\nThe Maple: Canadian Media Outlets Are Erasing Palestine From History\nThe Maple: Toronto Star Deletes ‘Palestine’ After Complaint From Israel Lobby"
   },
   {
     "objectID": "index.html",
